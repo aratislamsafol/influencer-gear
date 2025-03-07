@@ -116,6 +116,13 @@
     color: var(--fifth_color);
     width: max-content; 
     font-weight: 700;
+    cursor: pointer;
+  }
+  .see-more-btn{
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+    cursor: pointer;
   }
   .radius{
     border-radius: 5px;
@@ -163,6 +170,7 @@
     text-decoration: none;
     font-size: 16px;
   }
+
   /* .hamburger{
     display: flex;
     flex-direction: column;
@@ -204,6 +212,10 @@
 .popular_collection{
   margin-top: 100px;
 }
+.popular-items{
+  display: flex;
+  flex-direction: column;
+}
 .card-wrapper{
   padding: 31px;
   display: grid;
@@ -231,4 +243,31 @@
 .card-description{
   margin-top: 8px;
 }
+.popular-items button{
+  padding: 0 31px;
+  margin-left: auto;
+  font-size: 18px;
+}
+.feature_product{
+  margin-top: 100px;
+}
+.card-content{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.card-feature{
+  justify-content: space-between;
+  align-items: center;
+}
+.card-feature img{
+  max-width: 404px;
+}
+.card-content .card-description{
+  max-width: 501px;
+}
+.card-content .card-description button{
+  margin-top: 16px;
+}
+
 

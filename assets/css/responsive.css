@@ -46,6 +46,14 @@
         justify-content: space-between;
         gap: 30px;
       }
+      .card-feature{
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .card-description{
+        margin-bottom: 30px;
+      }
 }
 
 @media (max-width: 767.98px) {
