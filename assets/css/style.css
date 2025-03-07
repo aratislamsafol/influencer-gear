@@ -188,4 +188,14 @@
     background-repeat: no-repeat;
 }
 
+/* Partner */
+.partner{
+  margin-top: 69px;
+}
+.all-partners{
+    padding: 35px 0;
+    box-shadow: 0 4px 8px 0 rgba(196, 191, 191, 0.2), 0 6px 20px 0 rgba(124, 123, 123, 0.19);
+    justify-content: space-around;
+    align-items: center;
+}
 
