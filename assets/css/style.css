@@ -64,7 +64,9 @@
     font-weight: 900;
     font-style: normal;
   }
-
+  .text-center{
+    text-align: center;
+  }
   .text-inter {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -194,8 +196,39 @@
 }
 .all-partners{
     padding: 35px 0;
-    box-shadow: 0 4px 8px 0 rgba(196, 191, 191, 0.2), 0 6px 20px 0 rgba(124, 123, 123, 0.19);
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
     justify-content: space-around;
     align-items: center;
+}
+/* popular Collection */
+.popular_collection{
+  margin-top: 100px;
+}
+.card-wrapper{
+  padding: 31px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  gap: 30px;
+}
+.card{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;;
+  padding: 17px 14px;
+}
+.rating{
+  align-items: center;
+  gap: 18px;
+}
+.rating_star{
+  gap: 6px;
+}
+.star{
+  width: 16px;
+}
+.star i{
+  font-size: 14px;
+}
+.card-description{
+  margin-top: 8px;
 }
 
