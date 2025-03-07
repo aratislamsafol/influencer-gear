@@ -270,4 +270,28 @@
   margin-top: 16px;
 }
 
+/* Footer  */
+.footer{
+  margin-top: 100px;
+  background-color: #0A0826;
+  color: #FFFFFF;
+}
+.footer-content{
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.social-icon{
+  margin-top: 44px;
+  gap: 16px;
+}
+.social_item{
+  border-radius: 50%;
+  padding: 7.47px;
+  background-color: #22203B;
+}
+
 
